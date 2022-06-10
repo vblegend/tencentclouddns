@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TencentCloudDns": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
