@@ -87,6 +87,7 @@ namespace TencentCloudDns
             {
                 RunJob().Wait();
             }
+            GC.Collect();
             Console.ReadKey();
         }
 

@@ -40,7 +40,7 @@ namespace TencentCloudDns
 
         public static void OutLog(String message)
         {
-            var outMessage = $"{DateTime.UtcNow.ToString("yyyy-MM-dd HH:dd:ss")} {message}";
+            var outMessage = $"{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")} {message}";
             using (StreamWriter sw = new StreamWriter(logFile, true, Encoding.UTF8))
             {
                 sw.WriteLine(outMessage);
