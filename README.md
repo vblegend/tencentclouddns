@@ -16,10 +16,10 @@
 
 ``` bash
 # 拉取最新镜像
-docker pull vblegend2030/tencentclouddns:0.1
+docker pull vblegend2030/tencentclouddns:latest
 
 # 运行容器 记得增加 config logs 卷的映射
-docker run --network=host -v /config:/config -v /logs:/logs -d vblegend2030/tencentclouddns:0.1
+docker run --network=host -v /config:/config -v /logs:/logs -d vblegend2030/tencentclouddns:latest
 ```
 ### 初次运行会在 config目录下创建 `Tencent.Cloud.Dns.config` 内容如下
 ``` json
